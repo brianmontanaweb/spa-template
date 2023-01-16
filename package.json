@@ -1,0 +1,35 @@
+{
+  "name": "spa-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "playwright:test": "playwright test",
+    "playwright:show-report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianmontanaweb/spa-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianmontanaweb/spa-template/issues"
+  },
+  "homepage": "https://github.com/brianmontanaweb/spa-template#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.29.2"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "create-react-app": "^1.2.1",
+    "playwright-core": "^1.29.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4"
+  }
+}
